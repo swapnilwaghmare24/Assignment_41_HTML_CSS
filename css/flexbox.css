@@ -1,0 +1,48 @@
+header {
+    background-color: #FF6044;
+    padding: 30px 0px 30px 0px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+footer {
+    background-color: #8DEE8D;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    font-weight: bold;
+}
+
+section {
+    background-color: #04BCFF;
+    order: 2;
+    flex: 3;
+}
+
+.leftSideBar {
+    background-color: #FFD300;
+    order: 1;
+    flex: 1;
+}
+
+.rightSideBar {
+    background-color: #FF65B3;
+    order: 3;
+    flex: 1;
+}
+
+article {
+    text-align: left;
+    font-weight: normal;
+    background-color: #02FFFF;
+    border-bottom: none;
+    padding: 10px;
+    margin: 10px;
+}
